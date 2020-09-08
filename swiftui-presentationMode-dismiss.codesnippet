@@ -3,21 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>swiftui-environment-presentationMode</string>
+	<string>swiftui-presentationMode-dismiss</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@Environment(\.presentationMode) var presentationMode</string>
+	<string>self.presentationMode.wrappedValue.dismiss()</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>3AEDBBCA-5341-4481-9C0D-26BD3F1CF609</string>
+	<string>FB86B765-9ECB-44C8-A6B5-98C357AE23B6</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
 	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>SwiftUI Environment PresentationMode</string>
+	<string>SwiftUI Presentation Mode Dismiss</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
