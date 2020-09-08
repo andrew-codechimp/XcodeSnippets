@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>swiftui-preview</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>ForEach([
+    ColorScheme.light,
+    ColorScheme.dark
+    ], id :\.self) { scheme in
+        &lt;#YourView#&gt;
+        .colorScheme(scheme)
+    //    .previewLayout(.sizeThatFits)
+    //    .previewDevice("iPhone 8")
+    //    .previewDevice("iPhone 8 Plus")
+    //    .previewDevice("iPhone 11")
+    //    .previewDevice("iPhone 11 Pro")
+    //    .previewDevice("iPhone 11 Pro Max")
+    //    .previewLayout(.fixed(width: 500, height: 800))
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>6E03FC63-88F4-42B1-82F5-83C9FA12A0B1</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>Create previews for multiple devices/schemes</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>SwiftUI Multi Device Preview</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
