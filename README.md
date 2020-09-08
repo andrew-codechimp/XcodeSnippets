@@ -1,5 +1,4 @@
-# XcodeSnippets
-Xcode Snippets
+# Xcode Snippets
 
 My personal Xcode Snippets
 
