@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>comment-block-quick-help</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>/**
+    Put the summary at the top. Put code related words inside backticks,
+    like `Int` and `String`, for example. Make text *italic* and **bold**.
+    The declaration below comes for free.
+
+    If you add a space below the summary, the text goes into the
+    discussion. Use the discussion for more in-depth details. Add code
+    snippets using three backticks.
+    ```
+    func sum(_ numbers: Int..., p2: Double) -&gt; Int {
+        return numbers.reduce(.zero, +)
+    }
+    ```
+
+    - Important: Emphasize anything super important that the reader
+    *really* needs to know here.
+
+    - Parameters:
+        - numbers: The numbers to be summed.
+        - p2: This is the second parameter.
+
+    - Returns: The sum of the numbers.
+    */</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>ED3F9152-1D84-48CE-9B38-F1F401D84748</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>Create a quick help comment block</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Comment Block</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
